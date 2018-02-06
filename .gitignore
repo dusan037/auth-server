@@ -1,1 +1,39 @@
 node_modules
+.metadata
+.project
+.classpath
+.settings/
+*/*/.gradle
+target/
+/.DS_Store
+/build/
+/logs/
+/*/.DS_Store
+*/*/*/.DS_Store
+
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/bin/
+.bin
+.lock
+
+# DevOps Runway
+!runway/**
+
+# IDE files
+/.idea/
+/.gradle/
+/classes/
+
+# gradle wrapper
+/gradle/
+gradlew
+gradlew.bat
